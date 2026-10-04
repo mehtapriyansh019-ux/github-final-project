@@ -1,0 +1,4 @@
+C:\Users\Priyansh Mehta\mcino-Introduction-to-Git-and-GitHub>git branch -vv
+* bug-fix-revert 8a3c9b3 [origin/bug-fix-revert] Revert "Fix typo"
+  bug-fix-typo   ad61c88 Fix typo
+  main           ad61c88 [origin/main: ahead 1] Fix typo
