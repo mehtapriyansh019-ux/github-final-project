@@ -1,4 +1,5 @@
-C:\Users\Priyansh Mehta\mcino-Introduction-to-Git-and-GitHub>git branch -vv
-* bug-fix-revert 8a3c9b3 [origin/bug-fix-revert] Revert "Fix typo"
-  bug-fix-typo   ad61c88 Fix typo
-  main           ad61c88 [origin/main: ahead 1] Fix typo
+git branch -vv
+
+  bug-fix-revert eb5301a [origin/bug-fix-revert] Add pull request verification output
+  bug-fix-typo   05f9f4b [origin/bug-fix-typo] Fix typo in README footer
+* main           8df319 [origin/main] Add merge branch output
