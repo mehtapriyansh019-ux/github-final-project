@@ -1,4 +1,5 @@
-curl -s https://api.github.com/repos/mehtapriyansh019-ux/github-final-project
+curl -s https://api.github.com/repos/mehtapriyansh019-ux/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+
 
 C:\Users\Priyansh Mehta>curl -s https://api.github.com/repos/mehtapriyansh019-ux/github-final-project | grep -A 5 '"parent"'
   "parent": {
