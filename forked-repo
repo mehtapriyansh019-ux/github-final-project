@@ -1,11 +1,7 @@
-curl -s https://api.github.com/repos/mehtapriyansh019-ux/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+curl.exe -s "https://api.github.com/repos/mehtapriy﻿ansh019-ux/github-final-project" | findstr /C:"parent" /C:"full_name"
 
-
-C:\Users\Priyansh Mehta>curl -s https://api.github.com/repos/mehtapriyansh019-ux/github-final-project | grep -A 5 '"parent"'
-  "parent": {
-    "id": 1050225087,
-    "node_id": "R_kgDOPpkpvw",
-    "name": "mcino-Introduction-to-Git-and-GitHub",
+"full_name": "mehtapriy﻿ansh019-ux/github-final-project",
+"parent":
     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
-    "private": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
 
